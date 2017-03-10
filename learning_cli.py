@@ -35,13 +35,13 @@ class LearningMap(object):
     	
 
     def view_learning_map(self):
-    	print ("====================" +"View my learningmap "+"====================")
+    	print ("======" +"View my learningmap "+"======")
 
-    	print ("====================" +"This is what I planned to study "+"====================")
+    	print ("======" +"This is what I planned to study "+"======")
     	for skills in all_skills:
     		print(skills)
-    	print ("====================" +"This what I have studied" +"====================")
+    	print ("=======" +"This what I have studied" +"=======")
     	for skills in studied_skills:
     		print(skills)
-    	print ("====================" +"This what I have not yet studied" + "====================")
+    	print ("===================" +"This what I have not yet studied" + "====================")
     	self.view_skills_not_studied()	
